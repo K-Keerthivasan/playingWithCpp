@@ -3,9 +3,8 @@
 #include "Lua5.4.6/lua.h" 
 #include "Lua5.4.6/lualib.h"
 #include "Lua5.4.6/lauxlib.h"
-#include "AudioClass.h"
-#include "AudioClass.cpp"
 
+#include <sol/sol.hpp>
  
  
 //TODO
