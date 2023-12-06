@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PlayerClass">
+      <UniqueIdentifier>{1d59a68c-f4c6-43e9-b8f5-9d7871202598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arena">
+      <UniqueIdentifier>{d5a2a52f-692f-419e-ac08-89fd14d57650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{3230264a-bff3-46af-a828-ff82fa7ed9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OtherStuff">
+      <UniqueIdentifier>{15e15146-8c2e-411d-9582-fc610f3bfc97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClassStuff.cpp">
+      <Filter>OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClass.cpp">
+      <Filter>OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>PlayerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="cArena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyBuilder.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioClass.h">
+      <Filter>OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClassStuff.h">
+      <Filter>OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>PlayerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cArena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyBuilder.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="iEnemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
