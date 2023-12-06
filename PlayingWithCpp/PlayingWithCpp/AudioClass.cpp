@@ -11,7 +11,6 @@ AudioClass::AudioClass(bool isPlaying, int audioNumber)
 
 AudioClass::AudioClass()
 {
-
 }
 
 

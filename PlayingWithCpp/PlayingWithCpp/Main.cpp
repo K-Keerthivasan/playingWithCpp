@@ -1,7 +1,9 @@
 #include <iostream>
 #include <map>
- 
-#include "cPlayer.h"
+#include "Lua5.4.6/lua.h" 
+#include "Lua5.4.6/lualib.h"
+#include "Lua5.4.6/lauxlib.h"
+
 #include <sol/sol.hpp>
  
  
@@ -13,25 +15,11 @@
 
 //--------------------------------------------------------------------------------
 
-//Abstract factory pattern
+//Abstract factory patter
 //Builder pattern
 //Command function
 //basic physics calculations
 
-
-void bind_cPlayer (sol::state&lua )
-{
-	lua.new_usertype<cPlayer>("cPlayer",
-				"setPlayerPosition", &cPlayer::setPlayerPosition,
-				"SetPlayer", &cPlayer::SetPlayer,
-				"playerState", &cPlayer::playerState,
-				"position", &cPlayer::position,
-				"isAlive", &cPlayer::isAlive,
-				"isJumping", &cPlayer::isJumping,
-				"isMoving", &cPlayer::isMoving
-			);
-
-}
 
 //So map has to things there
 int main()
@@ -56,12 +44,12 @@ int main()
 //--------------------------------------------------------------------------------
 
 
+	//Test how lua works
+lua_State* L = luaL_newstate();
+luaL_openlibs(L);
 
-	sol::state lua;
 
-	bind_cPlayer(lua);
 
-	lua.script_file("Player.lua");
 
 	return 0;
 
