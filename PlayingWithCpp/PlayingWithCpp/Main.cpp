@@ -1,10 +1,7 @@
 #include <iostream>
 #include <map>
-#include "Lua5.4.6/lua.h" 
-#include "Lua5.4.6/lualib.h"
-#include "Lua5.4.6/lauxlib.h"
-
-#include <sol/sol.hpp>
+ 
+ 
  
  
 //TODO
@@ -45,8 +42,7 @@ int main()
 
 
 	//Test how lua works
-lua_State* L = luaL_newstate();
-luaL_openlibs(L);
+ 
 
 
 

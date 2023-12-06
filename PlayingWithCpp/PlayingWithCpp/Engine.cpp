@@ -12,5 +12,5 @@ bool Engine::isMoving(float SomethingMoving)
 {
 	this->someEngineFloat = SomethingMoving;
 	someEngineFloat = SomethingMoving;
-
+	return true;
 }
