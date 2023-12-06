@@ -81,4 +81,7 @@
       <Filter>Enemy</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Player.lua" />
+  </ItemGroup>
 </Project>
